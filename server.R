@@ -8,7 +8,7 @@ shinyServer(
 
             input_file <- input$file
             
-            if (is.null(inFile))
+            if (is.null(input_file))
                 return(NULL)
             else
                 rio::import(input_file$datapath)
