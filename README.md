@@ -11,7 +11,7 @@ It aims to expose the bunch of routines for data input/output available in
 the R community, in order to allow the user to convert between various file
 formats, by a simple upload (original) / download (converted) interface.
 
-Therefore can be seen as a simple, web-based, free equivalent to programs
+Therefore can be seen as a simple, web-based, free alternative to programs
 such as [StatTransfer](http://www.stattransfer.com/) or
 [SledgeHammer](http://www.openmetadata.org/site/?page_id=1089).
 
