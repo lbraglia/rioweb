@@ -17,4 +17,5 @@ such as [StatTransfer](http://www.stattransfer.com/) or
 
 ## where is?
 
-The app lives at http://lbraglia.shinyapps.io/rioweb.
+The app lives at http://lbraglia.shinyapps.io/rioweb; the development
+repository is [here](http://github.com/lbraglia/rioweb).
