@@ -15,8 +15,10 @@ available_formats <- c(
 shinyUI(fluidPage(sidebarLayout(
 
     sidebarPanel(fileInput('infile', label = NULL),
-                 selectInput('output_format', label = h3('Output format'), 
-                             choices = available_formats),
+                 selectInput('output_format',
+                             label = h3('Output format'), 
+                             choices = available_formats,
+                             size = length(available_formats)),
                  downloadButton('download_data', 'Download')
                  ),
                  
