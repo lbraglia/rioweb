@@ -1,9 +1,10 @@
 library(shiny)
+library(markdown)
 
 available_formats <- c('dta', 'sav')
 
 shinyUI(fluidPage(
-    titlePanel("File upload"),
+    titlePanel("rioweb"),
     sidebarLayout(
         sidebarPanel(
             fileInput('file', 'Choose File'),
@@ -16,6 +17,10 @@ shinyUI(fluidPage(
         mainPanel(
             ## tableOutput('contents')
         )
+    ),
+    fluidRow(
+        includeMarkdown("NOTES.md")
     )
+    
 ))
 
