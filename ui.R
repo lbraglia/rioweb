@@ -1,7 +1,7 @@
 library(shiny)
 library(markdown)
 
-available_formats <- c('dta', 'sav')
+available_formats <- c('dta', 'sav', 'xlsx')
 
 shinyUI(fluidPage(
     titlePanel("rioweb"),
@@ -15,7 +15,7 @@ shinyUI(fluidPage(
             ## tags$hr()
         ),
         mainPanel(
-            ## tableOutput('contents')
+            tableOutput('imported_input_file')
         )
     ),
     fluidRow(
