@@ -2,14 +2,14 @@ library(shiny)
 library(markdown)
 
 available_formats <- c(
-    'Comma separated'  = 'csv',
-    'Excel (>=2007)'   = 'xlsx',
-    'JSON'             = 'json',
-    'R'                = 'rds',
-    'SAS (csv + .sas)' = 'sas7bdat', # just to avoid changing it in the future
-    'SPSS'             = 'sav',
-    'Stata'            = 'dta',
-    'Tab separated'    = 'tsv'
+    'Comma separated'   = 'csv',
+    'Excel (>=2007)'    = 'xlsx',
+    'JSON'              = 'json',
+    'R'                 = 'rds',
+    'SAS (.csv + .sas)' = 'sas7bdat', # just to avoid changing it in the future
+    'SPSS'              = 'sav',
+    'Stata'             = 'dta',
+    'Tab separated'     = 'tsv'
 )
 
 shinyUI(fluidPage(sidebarLayout(
