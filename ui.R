@@ -1,9 +1,9 @@
 library(shiny)
 library(markdown)
 
-available_formats <- c('Excel (>=2007)'  = 'xlsx',
-                       'Comma separated' = 'csv',
+available_formats <- c('Comma separated' = 'csv',
                        'Tab separated'   = 'tsv',
+                       'Excel (>=2007)'  = 'xlsx',
                        'R'               = 'rds',
                        'Stata'           = 'dta',
                        'SPSS'            = 'sav',
