@@ -20,7 +20,7 @@ such as [StatTransfer](http://www.stattransfer.com/) or
 The app lives at http://lbraglia.shinyapps.io/rioweb; the development
 repository is [here](http://github.com/lbraglia/rioweb).
 
-## disclaimers
+## disclaimer
 
 `rioweb` is made available in the hope that it will be useful, but without
 any warranty to the extent permitted by applicable law.
