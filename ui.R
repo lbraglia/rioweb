@@ -18,6 +18,7 @@ shinyUI(fluidPage(sidebarLayout(
                  selectInput('output_format',
                              label = h3('Output format'), 
                              choices = available_formats,
+                             selectize = FALSE,
                              size = length(available_formats)),
                  downloadButton('download_data', 'Download')
                  ),
