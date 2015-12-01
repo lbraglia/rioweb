@@ -7,8 +7,8 @@
 
 ## what do rio/rioweb do?
 
-rio provides a unified framework for the many data input/output
-routines available in the R community. Rioweb exposes it on a web app,
+`rio` provides a unified framework for the many data input/output
+routines available in the R community. `rioweb` exposes it on a web app,
 allowing you to convert between various file formats with a simple
 upload (original) / download (converted) interface; no need to install
 any software.
