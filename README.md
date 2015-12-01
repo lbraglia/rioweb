@@ -1,21 +1,19 @@
 # rioweb
 
-## what is?
+## what is rioweb?
 
-`rioweb` is a bare-bone simple, web-based, interface to the
+`rioweb` is a bare-bones simple, web-based, interface to the
 [rio](http://cran.rstudio.com/web/packages/rio) R package.
 
-## what does?
+## what do rio/rioweb do?
 
-It aims to expose the bunch of routines for data input/output available in
-the R community, in order to allow the user to convert between various file
-formats, by a simple upload (original) / download (converted) interface.
+rio provides a unified framework for the many data input/output
+routines available in the R community. Rioweb exposes it on a web app,
+allowing you to convert between various file formats with a simple
+upload (original) / download (converted) interface; no need to install
+any software.
 
-Therefore can be seen as a simple, web-based, free alternative to programs
-such as [StatTransfer](http://www.stattransfer.com/) or
-[SledgeHammer](http://www.openmetadata.org/site/?page_id=1089).
-
-## where is?
+## where is rioweb?
 
 The app lives at http://lbraglia.shinyapps.io/rioweb; the development
 repository is [here](http://github.com/lbraglia/rioweb).
