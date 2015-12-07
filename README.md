@@ -5,7 +5,7 @@
 `rioweb` is a bare-bones simple, web-based, interface to the
 [rio](http://cran.rstudio.com/web/packages/rio) R package.
 
-## what do rio/rioweb do?
+## what do rio and rioweb do?
 
 `rio` provides a unified framework for the many data input/output
 routines available in the R community. `rioweb` exposes it on a web app,
@@ -15,7 +15,7 @@ any software.
 
 ## where is rioweb?
 
-The app lives at http://lbraglia.shinyapps.io/rioweb; the development
+The app lives [here](https://gallery.shinyapps.io/rioweb); the development
 repository is [here](http://github.com/lbraglia/rioweb).
 
 ## disclaimer
