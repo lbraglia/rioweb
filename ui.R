@@ -1,3 +1,7 @@
+## -----
+## ui.R
+## -----
+
 library(shiny)
 library(markdown)
 
@@ -6,7 +10,7 @@ available_formats <- c(
     'Excel (>=2007)'    = 'xlsx',
     'JSON'              = 'json',
     'R'                 = 'rds',
-    'SAS (.csv + .sas)' = 'sas7bdat', # just to avoid changing it in the future
+    'SAS'               = 'sas7bdat',
     'SPSS'              = 'sav',
     'Stata'             = 'dta',
     'Tab separated'     = 'tsv'
