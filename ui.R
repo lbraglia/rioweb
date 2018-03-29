@@ -10,7 +10,8 @@ available_formats <- c(
     'Excel (>=2007)'    = 'xlsx',
     'JSON'              = 'json',
     'R'                 = 'rds',
-    'SAS'               = 'sas7bdat',
+    'SAS (sas7bdat)'    = 'sas7bdat',
+    'SAS (.csv + .sas)' = 'sas_plus_csv',
     'SPSS'              = 'sav',
     'Stata'             = 'dta',
     'Tab separated'     = 'tsv'
