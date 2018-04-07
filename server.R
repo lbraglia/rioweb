@@ -7,8 +7,7 @@ library(shiny)
 library(tools)
 library(foreign)
 
-make_sas <- function(x, file, filesnames){
-
+make_sas_csv <- function(x, file, filesnames){
     csv_file <- paste0(filesnames, '.csv')
     sas_file <- paste0(filesnames, '.sas')
     foreign::write.foreign(df = x,
@@ -42,8 +41,9 @@ shinyServer(
                         rio::export(x = db,
                                     file = file,
                                     format = input$output_format)
-                    else make_sas(x = db, file = file,
-                                  filenames = basename(file_path_sans_ext(input$infile$name)))
+                    else make_sas_csv(x = db,
+                                      file = file,
+                                      filesnames = basename(file_path_sans_ext(input$infile$name)))
                 }
             }
         )
